@@ -1,0 +1,1758 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Revisão Bibliográfica} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Literature Review 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Literature Review
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Revisão-Bibliográfica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this chapter, relevant concepts directly related to the present work
+ will be discussed.
+ These concepts form the theoretical basis for the development and understanding
+ of the topic.
+ This section is divided into the geological contexts of the Barra Velha
+ Formation, petrophysical properties, concepts of porosity and permeability,
+ mercury porosimetry, pore size distribution, followed by mathematical and
+ theoretical models.
+\end_layout
+
+\begin_layout Section
+Rock Properties and Parameters
+\end_layout
+
+\begin_layout Subsection
+Properties of the Pore Space
+\end_layout
+
+\begin_layout Standard
+In his study, Schon (2011) emphasizes the fundamental importance of characterizi
+ng the pore space as a reservoir property, such as porosity and permeability.
+ These properties are essential for characterizing and describing the behavior
+ of fluid flow within the reservoir.
+\end_layout
+
+\begin_layout Standard
+The properties of the rock's pore space are described below:
+\end_layout
+
+\begin_layout Itemize
+Volume fraction of fluids (porosity, saturation, total fluid volume).
+ 
+\end_layout
+
+\begin_layout Itemize
+Characteristics that determine fluid distribution in the pore space (capillary
+ pressure, specific internal surface area, and wettability).
+ 
+\end_layout
+
+\begin_layout Itemize
+Properties that regulate fluid flow under the influence of a pressure gradient
+ (permeability).
+\end_layout
+
+\begin_layout Subsection
+Porosity
+\end_layout
+
+\begin_layout Standard
+Porosity plays a crucial role in petroleum engineering, particularly in
+ the context of oil reservoirs.
+ It refers to the amount of empty space within the reservoir rock that can
+ store hydrocarbons such as oil and gas.
+ The importance of porosity manifests in several key areas of the oil exploratio
+n and production process.
+\end_layout
+
+\begin_layout Standard
+Firstly, porosity is essential for reserve estimation.
+ Determining the porosity of a reservoir rock allows for the calculation
+ of the total volume of hydrocarbons that the reservoir can contain.
+ This calculation is fundamental for estimating recoverable reserves, that
+ is, the amount of oil and gas that can be economically extracted.
+ Additionally, porosity characterizes the quality of the reservoir.
+ Reservoirs with high porosity tend to be more efficient in hydrocarbon
+ storage, providing more space for the fluids.
+\end_layout
+
+\begin_layout Standard
+Total porosity can be defined as the ratio of the pore volume of the rock
+ to the total volume, as shown in equations 1 and 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi=\frac{V_{p}}{V_{total}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{total}=V_{p}+V_{matrix}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $\phi$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[\nicefrac{m^{3}}{m^{3}}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is the porosity (%), 
+\begin_inset Formula $V_{p}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[m^{3}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is the pore volume, and 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[m^{3}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is the matrix volume..
+\end_layout
+
+\begin_layout Standard
+Effective porosity, which is even more relevant to the petroleum industry,
+ is determined by the ratio of the connected pore volume to the total volume
+ of the rock.
+ Effective porosity, considered crucial for the oil industry, is calculated
+ by the ratio of the connected pore volume to the total volume of the rock.
+\end_layout
+
+\begin_layout Standard
+Porosity in carbonates is highly variable in magnitude, with values ranging
+ from 1% to 35% 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lucia1999characterization"
+literal "false"
+
+\end_inset
+
+and pore sizes that can vary from hundreds of micrometers to a few nanometers
+ within a 1.5” plug.
+ Additionally, there is a wide variety of pore types, as illustrated in
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Porosity-types-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Porosity types.png
+	lyxscale 50
+	scale 75
+	BoundingBox 0bp 0bp 706bp 591bp
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Porosity-types-in"
+
+\end_inset
+
+Porosity types in carbonates.
+ Adapted from Flugel (2010)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flugel2010microfacies"
+literal "false"
+
+\end_inset
+
+, interparticle porosity refers to the empty spaces between grains and crystals
+ and can be explained by considering the pore size distribution and particle
+ size.
+ Intraparticle porosity, on the other hand, is related to the void spaces
+ within the grains themselves, while moldic porosity results from the selective
+ removal of grains, typically through dissolution.
+ Fractures are porous spaces formed by the breaking of the rock, which can
+ occur due to increased pressure or tectonic movements, and are particularly
+ significant for hydrocarbon flow, especially in carbonate rocks.
+ Channels, in turn, originate from the dissolution of fractures or grains.
+ Finally, vuggy porosity is caused by the dissolution of grains or cements,
+ potentially creating spaces that range from millimeters to meters.
+\end_layout
+
+\begin_layout Subsubsection
+Primary Porosity and Secondary Porosity
+\end_layout
+
+\begin_layout Standard
+Furthermore, porosities in carbonate rocks can be classified according to
+ the deposition of sedimentary materials and are referred to as primary
+ and secondary porosity.
+ These two types of porosity are directly interconnected in the formation
+ of pore space.
+\end_layout
+
+\begin_layout Standard
+Primary porosity is formed during the deposition of sedimentary material
+ and can be either intragranular (within grains) or intergranular (between
+ grains).
+ Factors influencing the formation of primary porosity include packing,
+ grain size, compaction, sorting, angularity, and cementation.
+\end_layout
+
+\begin_layout Standard
+Secondary porosity, also known as post-depositional porosity, arises as
+ a result of geological processes occurring after the formation of the rock
+ from sediments.
+ These processes include fracturing, dissolution, dolomitization, and fracturing
+ (Flugel, 2004).
+ Secondary porosity is commonly found in carbonate rocks as it can be generated
+ by processes such as dissolution, dolomitization, or fracturing.
+\end_layout
+
+\begin_layout Standard
+In addition to these categories, there are various classifications based
+ on pore size, which are divided into micro, meso, and macro pores.
+ This study adopts the classification proposed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+, defining micropores as those with a diameter less than 0.5 µm, mesopores
+ between 0.5 and 5 
+\begin_inset Formula $µm$
+\end_inset
+
+, and macropores with a diameter greater than 5 
+\begin_inset Formula $µm$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Tortuosity
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "azar2008approach"
+literal "false"
+
+\end_inset
+
+, tortuosity (
+\begin_inset Formula $\tau$
+\end_inset
+
+) is the ratio of the actual path traveled by the fluid to the theoretical
+ path, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Actual-flow-path"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Tortuosidade.jpg
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Actual-flow-path"
+
+\end_inset
+
+ Actual
+\lang brazilian
+ 
+\lang american
+flow
+\lang brazilian
+ 
+\lang american
+path
+\lang brazilian
+, 'La', length of a sample, 'L', and tortuosity, 'La/L'.
+ AZAR (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tortuosity is not an independent factor, as it can depend on various aspects
+ such as porosity and pore geometry.
+ Additionally, this ratio does not assume values lower than 1.0, based on
+ the fact that its minimum value is when 
+\begin_inset Formula $L_{a}=L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In his studies, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archie1942electrical"
+literal "false"
+
+\end_inset
+
+stated that the conductivity of a rock saturated with brine is directly
+ related to the specific electrical conductivity of the rock when saturated
+ with water (𝑅0), which, in turn, is proportional to the specific resistivity
+ of the brine (𝑅𝑤).
+ The rock conductivity model is shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Conductivity Rock"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+R_{0}=FRF\times R_{w}\label{eq: Conductivity Rock}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The formation resistivity factor represents the magnitude of resistivity
+ relative to the conductive brine due to the presence of a non-conductive
+ matrix.
+ Thus, the pores act as the sole conductors, and a correlation between the
+ formation resistivity factor and porosity can be obtained as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Formation Resistivity Factor"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+FRF=\frac{R_{o}}{R_{w}}=\frac{1}{\Phi_{e}^{m}}\label{eq: Formation Resistivity Factor}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $m$
+\end_inset
+
+ is an empirical factor known as the cementation exponent.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "latour1995pore"
+literal "false"
+
+\end_inset
+
+ propose an approach to estimate tortuosity based on laboratory test results.
+ They suggest that tortuosity can be calculated using 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, considering the parameters 
+\begin_inset Formula $FRF$
+\end_inset
+
+ and 
+\begin_inset Formula $\varphi_{e}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tau=FRF\times\varphi_{e}\label{eq:Tortuosity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archie1942electrical"
+literal "false"
+
+\end_inset
+
+ the concentration of brines used to saturate the samples varies between
+ 20,000 to 100,000 mg/L of NaCl.
+\end_layout
+
+\begin_layout Subsection
+Specific Surface Area
+\end_layout
+
+\begin_layout Standard
+As stated by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+, the specific surface area of the pore decreases as the pore radius increases,
+ implying that a higher specific surface area suggests the existence of
+ smaller pores.
+\end_layout
+
+\begin_layout Standard
+The ratio between the surface area 
+\begin_inset Formula $m(2\pi rL)$
+\end_inset
+
+ and the pore volume 
+\begin_inset Formula $m(\pi r^{2}L)$
+\end_inset
+
+ represents the specific surface area for capillary tubes, as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Surface Area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{vp}=\frac{A_{s}}{V_{p}}=\frac{m(2\pi rL}{m(\pi r^{2}L)}=\frac{2}{r}\label{eq: Specific Surface Area}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $r$
+\end_inset
+
+ is the radius of the pore and 
+\begin_inset Formula $L$
+\end_inset
+
+ is the length.
+\end_layout
+
+\begin_layout Standard
+In a bundle of capillary tubes, the total exposed area, represented by
+\begin_inset Formula $A_{t}$
+\end_inset
+
+, equals the surface area.
+ The grain volume 
+\begin_inset Formula $V_{gr}$
+\end_inset
+
+ is calculated as 
+\begin_inset Formula $A_{c}L(1-\eta_{e})$
+\end_inset
+
+, as indicated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Grain Volume"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, where 
+\begin_inset Formula $A_{c}$
+\end_inset
+
+
+\begin_inset Formula $\left[m^{2}\right]$
+\end_inset
+
+ represents the total cross-sectional area.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{vgr}=\frac{m(2πrL)}{A_{c}L(1-φ_{e})}=\frac{2πmr}{A_{c}(1-φ_{e})}=\frac{πmr^{2}}{A_{c}}(\frac{2}{r})\frac{1}{(1-φ_{e})}\label{eq: Specific Grain Volume}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After some algebraic manipulations, applying 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Surface Area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ to 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Grain Volume"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, one can arrive at 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:  specific surface area per unit volume of the grain"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, giving rise to the specific surface area per unit volume of the grain
+ as a function of the specific surface area.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Svgr=S_{vp}(\frac{𝜑_{𝑒}}{1−𝜑_{𝑒}})\label{eq:  specific surface area per unit volume of the grain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dominant Pore Size
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "weger2006quantitative"
+literal "false"
+
+\end_inset
+
+ showed that the dominant pore size in a sample is defined as the maximum
+ pore radius associated with 50% of the porosity in a petrographic section.
+\end_layout
+
+\begin_layout Subsection
+Permeability
+\end_layout
+
+\begin_layout Standard
+The ability of a rock to transmit fluid through its pore space is called
+ permeability, a fundamental property.
+ In carbonate rocks, permeability can vary considerably for the same porosity
+ due to various properties of the pore space.
+\end_layout
+
+\begin_layout Standard
+There are three types of permeability: absolute, effective, and relative.
+ Absolute permeability pertains to the flow of a single non-reactive fluid,
+ while effective permeability involves the flow of a fluid in the presence
+ of another immiscible one.
+ Relative permeability is the ratio of effective to absolute permeability.
+ Equation x, presented, describes fluid flow in porous media, where variables
+ such as flow rate, porous media proportionality constant, cross-sectional
+ area, water heights, and porous media length are considered.
+ This equation was empirically derived from a water treatment experiment
+ using sand filters 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosa2006engenharia"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+q=KA\frac{h_{1}-h_{2}}{L}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where the constant 
+\begin_inset Formula $K$
+\end_inset
+
+ [D]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K=\frac{\gamma k}{\mu}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+depends on the absolute permeability of the porous medium, the viscosity
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+ [cP], and the specific weight of the fluid 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{N}{m^{3}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+By substituting equation 4 into equation 2, we obtain Darcy's law for fluids
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Darcy's Law"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q=\frac{KA\Delta P}{\mu L}\label{eq: Darcy's Law}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As h1 and h2 have pressure units, they can be replaced by P [atm].
+ The fluid viscosity is expressed in centipoise [cP] and permeability in
+ Darcy [D].
+\end_layout
+
+\begin_layout Subsection
+Permeability Models
+\end_layout
+
+\begin_layout Standard
+Diversos modelos para estimar a permeabilidade estão estão disponíveis na
+ literatura, a exemplo dos modelos de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics,saki2020new,kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+.
+ No presente trabalhado estes três métodos serão desenvolvidos.
+ Entretanto, serão utilizados apenas estes dois últimos, uma vez que os
+ dados necessários para a estimativa de Kozeny-Carman 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+ não foram obtidos.
+\end_layout
+
+\begin_layout Subsubsection
+Kozeny-Carman Model
+\end_layout
+
+\begin_layout Standard
+Este modelo relaciona a permeabilidade de um meio poroso à sua estrutura
+ e propriedades fluidas.
+ A equação de Kozeny-Carman é derivada com base em uma idealização do fluxo
+ de fluido através de um meio poroso, considerando-o como um conjunto de
+ canais capilares tortuosos e uniformemente distribuídos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+.
+ The Kozeny-Carman theory can be expressed by Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Kozeny Carman"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k=\frac{\phi d_{p}^{2}}{16τ}\label{eq:Kozeny Carman}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where k is the absolute permeability [mD], 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is the porosity [%], 
+\begin_inset Formula $τ$
+\end_inset
+
+ is the tortuosity [
+\begin_inset Formula $\frac{\mu m}{\mu m}$
+\end_inset
+
+], and dp is the pores average (mean volume) diameter [
+\begin_inset Formula $\mu m$
+\end_inset
+
+].
+\end_layout
+
+\begin_layout Subsubsection
+Winland Model
+\end_layout
+
+\begin_layout Standard
+Conforme reportado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+, Winland desenvolveu um método para calcular o tamanho médio de garganta
+ de poros em suas abordagens nos campos de Weyburn, Hidalgo e Spindle.
+ O modelo desenvolvido por Winland pode ser observado pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Winland Equation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,φ\label{eq: Winland Equation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where, 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ refers to the radius of the smallest pores or throats filled with mercury
+ at 35% saturation in an MIP test [
+\begin_inset Formula $\mu m$
+\end_inset
+
+].
+ Additionally, 
+\begin_inset Formula $ϕ$
+\end_inset
+
+ represents porosity [%], and 
+\begin_inset Formula $K_{air}$
+\end_inset
+
+ denotes air permeability [mD].
+ The ranges of permeability and porosity used in the dataset for Winland's
+ equation were not specified.
+\end_layout
+
+\begin_layout Subsubsection
+Saki Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ utiliza um modelo similar ao abordado por Winland, entretanto contendo
+ uma base de dados mais robusta.
+ Não obstante, em seu estudo, é possível identificar a relação de 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+à permeabilidade e porosidade.
+ O modelo de Saki pode ser observado através da Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Saki Equation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,φ\label{eq:Saki Equation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Barra Velha Formation and Lacustrine Depositional Environment
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "amorim2021analise"
+literal "false"
+
+\end_inset
+
+, the Barra Velha Formation, located in the Santos Basin and dated to the
+ Aptian age, originated in a lacustrine environment and consists of carbonate
+ deposits from the 'Pre-Salt' petroleum play.
+ This formation is of interest due to various uncertainties related to its
+ evolution, the microbial influence on rock diagenesis, and the type of
+ depositional environment.
+ Additionally, carbonates, by their very nature, exhibit significant heterogenei
+ties, as do the associated minerals found in this formation, indicating
+ specific conditions for their formation.
+\end_layout
+
+\begin_layout Standard
+The Barra Velha Formation has its base marked by the Pré-Alagoas unconformity,
+ which separates it from the bioclastic deposits and shales of the Itapema
+ Formation, as observed by Chinelatto et al.
+ (2020), while the upper part is defined by the salt base unconformity,
+ indicating the abrupt transition to the evaporites of the Ariri Formation,
+ as highlighted by Yamamoto et al.
+ (2019).
+ Due to its evolution associated with the separation between the South American
+ and African continents, genetically related deposits to the Barra Velha
+ Formation, such as the Macabú Formation in the Campos Basin (Herlinguer
+ et al., 2017), and the sag phase deposits of the West African basins (Kwanza
+ Basin, Saller et al., 2016), can be integrated to understand the predominant
+ depositional system during the Aptian and the sedimentary and diagenetic
+ processes that affected the Pre-Salt reservoirs.
+\end_layout
+
+\begin_layout Standard
+Numerous studies over the last decade have proposed a lacustrine interpretation
+ for the carbonates of the Brazilian Pre-Salt sag stage (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015abiotic"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2018reinterpreting"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2018reinterpreting"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pietzsch2020environmental"
+literal "false"
+
+\end_inset
+
+; replacing the initial interpretation of a marine or transitional origin
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+ The lack of marine fossil content, such as foraminifera, and the absence
+ of a mineralogical composition indicative of marine influence, such as
+ sulfates (gypsum and anhydrite), are important arguments in favor of a
+ lacustrine origin 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015abiotic"
+literal "false"
+
+\end_inset
+
+.
+ Additionally, geochemical and isotopic data also suggest a predominance
+ of continental influence 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pietzsch2020environmental"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+However, there are two main and distinct models that have been widely debated
+ regarding the depositional conditions of the Barra Velha Formation (
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fig.
+ 
+\end_layout
+
+\end_inset
+
+2) (Wright and Barnett, 2017).
+ These models and their variations mainly differ in hydrological characteristics
+ and the shape of the lacustrine system.
+ One of these models describes a deep lake, where extensive microbial platforms
+ and large-scale structures developed (Saller et al., 2016; Ceraldi and Green,
+ 2016; Minzoni et al., 2020; Gomes et al., 2020).
+ On the other hand, the second model suggests the presence of a shallow
+ evaporitic lake, with a gentle slope (Wright and Barnett, 2016; Farias
+ et al., 2019; Gomes et al., 2020).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/wright.png
+	lyxscale 75
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+asdsds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In general, the deep lake and carbonate platform model is more aligned with
+ the evidence observed at seismic scale, including clinoforms of hundreds
+ of meters and seismic geomorphology indicating an extremely steep lake
+ bottom topography (Saller et al., 2016; Minzoni et al., 2020).
+ In contrast, the conceptual models of shallow and evaporitic lakes seek
+ to explain various petrographic characteristics and isotopic and geochemical
+ evidence, suggesting significant and frequent variations in water chemistry,
+ resulting in conditions of extreme alkalinity (Wright and Barnett, 2016).
+\end_layout
+
+\begin_layout Section
+Petroleum System of the Barra Velha Formation
+\end_layout
+
+\begin_layout Standard
+The Barra Velha Formation is recognized as one of the main petroleum systems
+ in the Santos Basin, alongside Piçarras-Guarujá and Itajaí-Açu-Ilha Bela.
+ The origin of the Barra Velha Formation dates back to lacustrine shale
+ deposits with intercalations of carbonates from the Piçarras Formation,
+ followed by deposition in carbonate reservoirs of the Itapema and Barra
+ Velha formations.
+ This formation is associated with the petroleum system present in the pre-salt
+ section of the Santos Basin.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Reservoir Rocks of the Santos Basin
+\end_layout
+
+\begin_layout Standard
+The Santos Basin presents a variety of reservoir rocks, including shallow-water
+ oolitic carbonates from the Guarujá Formation and Eocene turbiditic sandstones
+ from the Marambaia Formation and the Ilha Bela Member of the Itajaí-Açu
+ Formation (Chang et al., 2008).
+ However, it is important to highlight the significant contribution of the
+ Itapema and Barra Velha formations as the main reservoirs in the pre-salt
+ section.
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANP-Rodada-Bacia-de-Santos"
+literal "false"
+
+\end_inset
+
+, these carbonate formations play a crucial role in the exploration of the
+ Brazilian pre-salt, hosting gigantic oil volumes discovered in fields such
+ as Lula, Sapinhoá, and Búzios, among others.
+ Comprised of carbonate rocks formed by coquinas and/or microbialites, as
+ well as ostracode coquinas and stromatolite clasts, the Itapema and Barra
+ Velha formations represent reservoirs of great economic and strategic importanc
+e.
+\end_layout
+
+\begin_layout Standard
+The microbial carbonates of these formations are found in the upper rift
+ (syn-rift) and sag (post-rift) sections, often overlying coquina deposits
+ of the Itapema Formation, which dates back to the Neo-Barremian to Eoaptian
+ age.
+ These geological characteristics not only outline the complexity of the
+ formations but also highlight their relevance in oil exploration and production
+ in the pre-salt region.
+\end_layout
+
+\begin_layout Subsection
+Petroleum play
+\end_layout
+
+\begin_layout Standard
+The exploration of the Santos Basin has revealed a diversity of accumulation
+ models over time, resulting in the identification of fields and sub-commercial
+ discoveries in different geological strata, especially in the rift section.
+ Among the main exploration targets of the basin, as highlighted in the
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-Bacia-de-santos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ the Aptian carbonates of the Itapema and Barra Velha Formations (known
+ as the Pre-Salt play), the Albian carbonates of the Guarujá Formation,
+ the turbiditic sandstones of the Ilhabela Member of the Itajaí-Açu Formation,
+ and the turbiditic sandstones of the Maresias Member of the Marambaia Formation
+ stand out.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Play Petrolífero - Barra VElha - Santos Basin.png
+	lyxscale 50
+	scale 75
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Main accumulation models of the Santos Basin (Chang et al., 2008); A) Pre-Salt
+ play; B) Albian carbonate play of the Guarujá Formation; C) Turbiditic
+ play of the Ilhabela Member; D) Turbiditic play of the Marambaia Formation
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-Bacia-de-santos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Mercury Injection Porosimetry (MIP)
+\end_layout
+
+\begin_layout Standard
+According to Glover (2000), Mercury Intrusion Porosimetry is a widely used
+ methodology for investigating pore properties.
+ This method relies on the concept that mercury is a non - wetting fluid
+ and cannot spontaneously fill the rock pores.
+\end_layout
+
+\begin_layout Standard
+Thus, a dry sample of any shape, previously weighed, is inserted into a
+ chamber to be gradually filled with mercury under different pressure levels.
+ By observing a volume scale, one can deduce how the mercury level inside
+ the chamber varies.
+ At very low pressures, the mercury remains around the sample and does not
+ penetrate the pores.
+ Therefore, the increase in mercury level is related to the total volume
+ of the sample.
+ As the pressure increases, the mercury begins to occupy the pores, and
+ a decrease in the mercury level is recorded on the scale.
+ Mercury penetrates into progressively smaller pores at each stage, overcoming
+ the capillary pressure acting against the non-wetting liquid.
+\end_layout
+
+\begin_layout Standard
+The relationship between the applied pressure and the minimum pore size
+ into which mercury is forced to enter is described by the Washburn Equation
+ (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D=\frac{-4\gamma\cos\left(\theta\right)}{P}\label{eq: Washburn model}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $D$
+\end_inset
+
+ is the pore diameter, P is the applied pressure, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is the surface tension, and 
+\begin_inset Formula $θ$
+\end_inset
+
+ is the contact angle between mercury and the pore wall.
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+, Mercury porosimetry is an extremely useful characterization technique
+ for porous materials.
+ In his survey, the author suggests that pores between 500 
+\begin_inset Formula $µm$
+\end_inset
+
+ and 3.5 
+\begin_inset Formula $nm$
+\end_inset
+
+ can be investigated.
+ Mercury porosimetry provides a wealth of information, such as pore size
+ distribution, total pore volume or porosity, skeletal and apparent density,
+ as well as the sample's surface area.
+ Still according to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+, No other porosity characterization technique can achieve this range of
+ information.
+\end_layout
+
+\begin_layout Standard
+However, it is worth noting that the method also has limitations.
+ One of its main limitations is that mercury measures the largest entries
+ towards a pore, but it doesn't measure its true internal size.
+ For this reason, this technique does not allow for the analysis of closed
+ pores, as mercury cannot access them, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic-representation-os"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/Downloads/Representação esquemática de poros (1).png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schematic representation of pores (Giesche et.al, 2006) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematic-representation-os"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em seu trabalho 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+ também utilizou a técnica de porosimetria de injeção a mercúrio, entretanto
+ para a caracterização petrofísica de estromatólitos da Lagoa Salgada.
+ Seu estudo fornece dados relevantes sobre a complexidade do sistema poroso
+ que compreende diversos tipos de porosidade, tais como a prorosidade móldica,
+ por canais e fenestrais.
+ Conforme é possível observar na 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pore-analysis-using"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, à medida que a pressão aumenta o mercúrio começa a intrudir em poros cada
+ vez menores.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/ceia estromat.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pore-analysis-using"
+
+\end_inset
+
+Pore analysis using MIP technique from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

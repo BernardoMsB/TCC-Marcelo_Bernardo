@@ -1,0 +1,2145 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master ../../../../../../Dropbox/05-Gestao/Modelos/1-ModelosDiretorios/ModeloDiretorio-Aluno-Bolsista-TCC-IC-MSC-DSC-Projeto-GIT/04-Projeto-Mestrado-Doutorado-BancaEditalSelecao/Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Methodology 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Methodology
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Metodologia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Metodologia} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The methodology adopted in this study aims to investigate the reservoir
+ rock properties of the Barra Velha formation, located in the Santos Basin,
+ focusing on the characterization of petrophysical parameters to analyze
+ its pore distribution.
+ Estimates such as porosity, permeability, tortuosity, and pore characteristics
+ aim to assess the pore distribution according to the classification by
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+, using the Washburn equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The methodological choices were grounded in the concepts addressed in chapter
+ 2.
+\end_layout
+
+\begin_layout Section
+Sample Definition
+\end_layout
+
+\begin_layout Standard
+In this study, the samples analyzed originate from well 1BRSA491-SPS.
+ The fragments were collected from the LAPA field in the Santos Basin and
+ were provided by Agência Nacional do Petróleo (ANP), to whom we are grateful.
+ These samples represents a specific section of the Barra Velha formation.
+ To characterize the sample, data were collected from 12 depths within the
+ specified section.
+ The data is presented covering two different techniques: MIP and Membrane.
+ 
+\end_layout
+
+\begin_layout Standard
+However, only the six depths related to the mercury intrusion microscopy
+ technique will be considered.
+ The selected depths provide detailed profiles of the rock formation properties.
+ The Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Maximum-pressure-and minimum pore throat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows all six depths developed using the MIP technique.
+ In this table, one can observe the maximum pressure (psia) and the minimum
+ pore-throat radius (mm) reached during the experiment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Well Name (ANP)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sample Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sample Depth (m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Porosity (%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum Pressure Reached (psia)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum Pore-throat radius Reached (mm)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5236.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59984.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5240.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59987.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5243
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56584.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001885 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5249
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59986.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5249.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59985.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5250
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59985.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Maximum-pressure-and minimum pore throat"
+
+\end_inset
+
+Maximum pressure and minimum pore-throat radius reached using MIP data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Mercury Intrusion Porosimetry
+\end_layout
+
+\begin_layout Subsection
+Principle of the Method
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+, mercury is a non-wetting fluid capable of penetrating the smallest pores
+ until sufficient pressure is exerted to induce entry.
+ As the pore diameter decreases, the pressure required for entry increases,
+ establishing an inversely proportional relationship between the required
+ pressure and the pore diameter.
+ When a specific pore is wetted by mercury, an external force that acts
+ to introduce its entry is incident on the contact area with the pore.
+ The product of this force per unit area and the total area equals the total
+ external force applied to mercury.
+ Before being compelled to enter the porous space, there must be a force
+ opposing the external force, ensuring equilibrium.
+ This force, in turn, results from the product of the mercury's surface
+ tension by the cosine of the contact angle, multiplied by the perimeter
+ of the pore contact.
+ After algebraic manipulations, it is possible to obtain the relationship
+ between the applied pressure and the pore size, as shown in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This relationship between pore diameter and pressure is known as the Washburn
+ equation.
+ According to this relationship, when a known mercury pressure is applied
+ to a container enclosing a porous sample, mercury is only forced into the
+ pores from a certain diameter onward.
+ The total volume of mercury introduced or forced into the pores is equal
+ to the total volume of pores of a specific size.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+ demonstrated the relationship between the surface tension of liquids and
+ the contact angle.
+ Different liquids on the same surface exhibit varying surface tensions,
+ resulting in different contact angles with the solid surface.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Various-liquids-resting"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ illustrates five distinct liquids, each with a different contact angle
+ relative to the solid surface.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/wettability.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Various-liquids-resting"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Various liquids resting on a solid surface.
+ The different angles of contact are illustrated for wetting and non-wetting
+ liquids
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that a liquid with low surface tension in contact with a solid surface
+ of higher surface tension will spread out, forming a contact angle of less
+ than 90°, thereby being characterized as wetting.
+ Conversely, if the surface tension of the liquid exceeds that of the solid
+ surface, the liquid will form a droplet with a contact angle between 90°
+ and 180°, classifying it as a non-wetting liquid in relation to the surface.
+\end_layout
+
+\begin_layout Standard
+Considering that in this work, mercury assumes a contact angle of 140º,
+ it can be stated that mercury exhibits non-wetting characteristics.
+ As highlighted in the previous chapter, for the method's success, pressure
+ must be incrementally increased in different stages.
+ With the increase in confinement pressure, the externally applied force
+ surpasses the capillary pressure exerted against the non-wetting liquid,
+ thereby promoting mercury intrusion into the pores.
+\end_layout
+
+\begin_layout Standard
+To explain the use of mercury as a non-wetting liquid, certain characteristics
+ are emphasized:
+\end_layout
+
+\begin_layout Itemize
+It exhibits low chemical reactivity with most materials at room temperature;
+ 
+\end_layout
+
+\begin_layout Itemize
+It presents a high contact angle (112º to 142º), preventing most materials
+ from being wetted.
+\end_layout
+
+\begin_layout Standard
+Furthermore, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Analitical-Methods-Webb"
+literal "false"
+
+\end_inset
+
+ discusses that at a pressure of 414 MPa (60,000 psi), mercury can be forced
+ into pores as small as 0.003 micrometers.
+ The application of Mercury Intrusion Porosimetry (MIP) aims to estimate
+ the pore size distribution, including pore throat dimensions.
+ This technique allows the measurement of the minimum size of pores (throats)
+ that mercury can enter under specific pressure.
+ This is crucial to understanding how pores behave in a material.
+ Furthermore, mercury porosimetry goes beyond the simple assessment of porosity.
+ It is also used to determine characteristics such as mass, matrix density,
+ and particle distribution in a material.
+ This technique enables the filling of empty spaces and interstitial spaces,
+ corresponding to the spaces between particles in the material matrix.
+\end_layout
+
+\begin_layout Subsection
+Experimental Procedure
+\end_layout
+
+\begin_layout Standard
+A dry sample, of any shape and previously weighed, is placed in a chamber
+ to be filled with mercury at different pressure stages.
+ Observing a volume scale, it is possible to deduce the variation in the
+ level of mercury inside the chamber.
+ At very low pressures, the mercury remains around the sample without penetratin
+g its pores, indicating that the increase in mercury level is related to
+ the total volume of the sample.
+ In contrast, as the pressure is increased, the mercury, which previously
+ surrounded the pores, begins to fill them, and a decrease in its level
+ can be observed on the scale.
+ Mercury penetrates into progressively smaller pores at each stage, overcoming
+ the capillary pressure acting against the non-wetting fluid 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The experimental setup for Mercury Intrusion Porosimetry (MIP) can be observed
+ in the Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:MIP-Experimental-arrangement"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/MIP scheme.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:MIP-Experimental-arrangement"
+
+\end_inset
+
+Experimental arrangement for the mercury intrusion porosimetry test, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As previously highlighted, for mercury to intrude into the sample pores,
+ an external force is required to overcome the capillary pressure.
+ Initially, this force is provided by the pressure applied by nitrogen gas.
+ When the pressure increases and there is no pore size that satisfies equation
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, mercury intrusion will not occur, and the intruded volume will be zero,
+ as shown in region A of the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ When the pressure reaches the ideal value to fill a particular pore size,
+ intrusion occurs, and the intruded volume increases, as shown in region
+ B of the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Volume-variation-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If there are no pore sizes that satisfy the Washburn equation, even with
+ consecutive increases in pressure, intrusion stabilizes and equilibrium
+ is reached, as observed in region C of the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado.png
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Intrusion-volume-versus"
+
+\end_inset
+
+Intrusion volume versus Pressure.
+ Adapted from (GOUVEIA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another approach can be seen through Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Volume-variation-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, where using the variation of intruded mercury volume versus pressure leads
+ to the conclusions obtained from the analysis of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Additionally, it becomes evident in the same figure that the maximum value
+ of mercury intrusion indicates the predominant pore throat size in the
+ sample analyzed at a given depth.
+ This study examined various samples from different depths, observing the
+ predominance of pore sizes in each.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado 2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Volume-variation-versus"
+
+\end_inset
+
+Volume variation versus Pressure.
+ Adapted from (GOUVEIA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Data Analysis
+\end_layout
+
+\begin_layout Standard
+With the central objective of analyzing the pore distribution of the Barra
+ Velha formation, located in the Santos Basin, this study will employ the
+ Washburn Equation as a fundamental tool in classifying pore throat sizes
+ into:
+\end_layout
+
+\begin_layout Itemize
+Micropores; 
+\end_layout
+
+\begin_layout Itemize
+Mesopores; 
+\end_layout
+
+\begin_layout Itemize
+Macropores.
+\end_layout
+
+\begin_layout Standard
+The Washburn equation relates applied pressure, pore size, and properties
+ of the involved fluids, enabling pore diameter calculations.
+ The significance of applied pressure and interfacial tension angle (also
+ known as contact angle) is pivotal to this relationship.
+ In this model, applied pressure and interfacial tension angle are crucial
+ as they determine mercury's ability to intrude into pores, thereby ensuring
+ accuracy in pore size distribution characterization.
+ The applied pressure must be sufficient to overcome capillary resistance,
+ while the contact angle adjusts the equation to reflect the specific interactio
+n between mercury and the material surface, accurately calculating pore
+ radii.
+ Interfacial tension, in turn, represents the force acting at the interface
+ between mercury (non-wetting fluid) and the solid surface of the pores.
+\end_layout
+
+\begin_layout Standard
+Drawing on available literature data, values of mercury/sample contact angle
+ and interfacial tension between mercury/air were obtained, contributing
+ to the application of the Washburn equation.
+ By applying the equation to different samples at various depths, pore throat
+ radius values were derived, which according to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2005confronting"
+literal "false"
+
+\end_inset
+
+, were classified based on table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Pore-size-distribution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ahr Classification
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pore Throat Radius 
+\begin_inset Formula $r$
+\end_inset
+
+ (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mu$
+\end_inset
+
+m)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Micropore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r < 0.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mesopore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5 < 
+\begin_inset Formula $r$
+\end_inset
+
+ < 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Macropore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r > 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Pore-size-distribution"
+
+\end_inset
+
+Pore size distribution according to Ahr classification, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Verificar como posso colocar a tabela no trabalho visto ter 1020 linhas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Porosity Analysis
+\end_layout
+
+\begin_layout Standard
+As described in subsection 3.2.2, as pressure increases, mercury begins to
+ fill the porous space.
+ Generally, there is a limit beyond which no further increase in displaced
+ volume is observed, even with increased pressure.
+ Upon reaching this limit, it is understood that all porous space has been
+ filled, and therefore, the displaced volume corresponds to the porous volume
+ of the sample.
+ Porosity can be estimated as the ratio between the volume of pores and
+ the total volume.
+ If the sample weight is known, the volume and density of the matrix can
+ be calculated by subtracting the porous volume from the total volume.
+ The total density is calculated as the ratio of the sample weight to the
+ total volume 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In this study, it was not possible to access data on porous volume and total
+ volume of the samples, which prevented the calculation and analysis of
+ matrix density.
+\end_layout
+
+\begin_layout Section
+Pore Size Distribution, Surface Area and Tortuosity
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+ presents the theory for analyzing mercury intrusion porosimetry (MIP) data,
+ including pore size distribution, specific surface area, and tortuosity
+ estimation.
+ Such methodologies can be implemented using Poremaster software 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster"
+literal "false"
+
+\end_inset
+
+, which allows for analysis of these rock characteristics.
+ According to Quantachrome (2004), pore size distribution is determined
+ using 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Pore size distribution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, which links the pore size distribution function 
+\begin_inset Formula $Dv\,(r)$
+\end_inset
+
+ to pore radius 
+\begin_inset Formula $(r)$
+\end_inset
+
+, as well as variations in volume and pressure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Dv\,(r)=\frac{P}{r}\frac{∂Vpp}{∂P}\label{eq: Pore size distribution}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The surface area can be calculated using Eq.
+ (3), which gives the cumulative area of pores that have been filled with
+ mercury up to a radius of r (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S=\frac{1}{\gamma\mid\cos\theta\mid}\intop P∂V\label{eq: Surface area}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the other hand, tortuosity can be inferred using the approach described
+ by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "carniglia1986construction"
+literal "false"
+
+\end_inset
+
+, according to the equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity factor"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+τ=(2.23\,−\,1.13\,V_{CO}\,ρ_{HG})\,(0.92y)^{1+E}\label{eq: Tortuosity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y=\frac{4}{S}∑\frac{ΔVi}{di}\label{eq: Tortuosity factor}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where S represents the surface area; 
+\begin_inset Formula $V_{CO}$
+\end_inset
+
+ is the total specific pore volume; 
+\begin_inset Formula $ΔV_{i}$
+\end_inset
+
+ indicates the change in pore volume within a specific pore size interval
+ i; di is the average diameter within that same pore size interval i; E
+ is the pore shape exponent (which equals 1 for cylindrical pores); 
+\begin_inset Formula $ρ_{HG}$
+\end_inset
+
+ is the density of mercury.
+\end_layout
+
+\begin_layout Standard
+However, in this work, such values could not be obtained due to the scarcity
+ of provided data that could be used in the equations.
+ In order to analyze the pore distribution, contact area, and tortuosity
+ according to the approach of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster"
+literal "false"
+
+\end_inset
+
+, the mercury intrusion volume data should have been made available, which
+ leads to the impossibility of evaluating these parameters.
+\end_layout
+
+\begin_layout Section
+Permeability
+\end_layout
+
+\begin_layout Standard
+To estimate permeability, two distinct approaches were used.
+ The first employs the Winland method 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+, while the other technique is an empirical regression presented by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The Winland method involves data fitting to correlate pore throat radius,
+ permeability, and porosity, as shown in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Winland method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,\phi\label{eq: Winland method}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this model, 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ represents the pore throat radius [µm], filled with mercury at 35% mercury
+ saturation in a MIP test.
+ In other hands, 
+\begin_inset Formula $k_{air}$
+\end_inset
+
+denotes the absolute permeability relative to air flow [mD], and 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is the porosity [%].
+\end_layout
+
+\begin_layout Standard
+In their approach, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ used a similar method to the Winland method but with a broader dataset.
+ Para obter uma equação a qual correlacionasse a permeabilidade relativa
+ ao gás, porosidade e tamanho de garganta de poros, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ fez o uso da técnica de ajuste de curvas de modo a obter o maior valor
+ do coeficiente de determinação (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+).
+ Em sua abordagem, ele dispôs de valores de raio de garganta de poros, referente
+s a saturação de mercúrio, entre 20% e 60%.
+ Os valores encontrados podem ser observados através da Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Results-of-regresion SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Equation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coeficient of Determination, 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.6756+1.3627\,\log\,r_{20}+1.1369\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7624
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.3958+1.3974\,\log\,r_{25}+0.9583\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7970
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.1862+1.4296\,\log\,r_{30}+0.8402\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8251
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.0583+1.4660\,\log\,r_{35}+0.6993\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8587
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.2365+1.4842\,\log\,r_{40}+0.6108\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8361
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.3785+1.4845\,\log\,r_{45}+0.5503\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8213
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.5420+1.4964\,\log\,r_{50}+0.4819\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8054
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.6796+1.5024\,\log\,r_{55}+0.4428\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7862
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.8152+1.5110\,\log\,r_{60}+0.4157\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7521
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Results-of-regresion SAKI"
+
+\end_inset
+
+Results of regresion analysis to determine the relationship between the
+ permeability, porosity, and the smallest radii of pores/throats filled
+ with mercury 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme é possível inferir pela Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Results-of-regresion SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, o melhor coeficiente é obtido quando 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ é utilizado.
+ Dessa forma, a melhor equação que reflete a estimativa mais precisa para
+ o cálculo da permeabilidade é a Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Saki method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,φ\label{eq: Saki method}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $K$
+\end_inset
+
+ is the gas permeability [mD], 
+\begin_inset Formula $\phi$
+\end_inset
+
+ represents porosity [%], and 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ is the smallest pore/throat radius fiilled by mercury at 
+\begin_inset Formula $35\%$
+\end_inset
+
+ mercury saturation [µm].
+\end_layout
+
+\begin_layout Standard
+Additionally, good accuracy of the model developed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ can be observed through Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Measured-vs-calculated SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, showing the plot of measured versus calculated permeability values using
+ the Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Saki method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Saki model cross-plot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Measured-vs-calculated SAKI"
+
+\end_inset
+
+Measured vs calculated permeabilities cross-plot using Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Saki method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conversely, it is important to highlight the impossibility of using the
+ permeability estimation method based on the Kozeny-Carman theory 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kozeny1927ueber"
+literal "false"
+
+\end_inset
+
+ due to insufficient data to calculate tortuosity, one of the essential
+ parameters of this model.
+ Tortuosity is crucial for determining the additional resistance to fluid
+ flow in rock pores, and its absence precludes the precise application of
+ the Kozeny-Carman model in analyzing the permeability of the studied samples.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

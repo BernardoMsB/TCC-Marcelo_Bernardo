@@ -1,0 +1,485 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master ../../../../../../Dropbox/05-Gestao/Modelos/1-ModelosDiretorios/ModeloDiretorio-Aluno-Bolsista-TCC-IC-MSC-DSC-Projeto-GIT/04-Projeto-Mestrado-Doutorado-BancaEditalSelecao/Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Metodologia
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Metodologia
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Metodologia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Metodologia} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A metodologia adotada neste estudo visa investigar as propriedades das rochas
+ reservatório da Bacia de Santos, com foco na caracterização de parâmetros
+ petrofísicos a fim de analisar a distribuição de poros da formação Barra
+ Velha.
+ Estimativas como porosidade, permeabilidade, tortuosidade, e características
+ dos poros, visam estimar a distribuição dos poros de acordo com a classificação
+ de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+, utilizando diversas técnicas analíticas, dentre elas a equação de Washburn
+ (XXX).
+ As escolhas metodológicas foram fundamentadas nos conceitos abordados no
+ capítulo 2.
+\end_layout
+
+\begin_layout Section
+Definição da Amostra
+\end_layout
+
+\begin_layout Standard
+Neste trabalho a amostra a ser analisada é identificada como 1BRSA491-SPS,
+ coletada do campo de LAPA, na bacia de Santos.
+ Esta amostra representa uma seção específica da formação de Barra Velha.
+ Para caracterizar a amostra, foram coletados dados de diversas profundidades
+ dentro da seção especificada.
+ As profundidades selecionadas fornecem perfis detalhados das propriedades
+ da formação rochosa.
+\end_layout
+
+\begin_layout Section
+Mercury Intrusion Porosimetry
+\end_layout
+
+\begin_layout Subsection
+Princípio do Método
+\end_layout
+
+\begin_layout Standard
+According to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+, mercury is a non-wetting fluid capable of penetrating the smallest pores
+ until sufficient pressure is exerted to induce entry.
+ As the pore diameter decreases, the pressure required for entry increases,
+ establishing an inversely proportional relationship between the required
+ pressure and the pore diameter.
+ When a specific pore is wetted by mercury, an external force that acts
+ to introduce its entry is incident on the contact area with the pore.
+ The product of this force per unit area and the total area equals the total
+ external force applied to mercury.
+ Before being compelled to enter the porous space, there must be a force
+ opposing the external force, ensuring equilibrium.
+ This force, in turn, results from the product of the mercury's surface
+ tension by the cosine of the contact angle, multiplied by the perimeter
+ of the pore contact.
+ After algebraic manipulations, it is possible to obtain the relationship
+ between the applied pressure and the pore size, as shown in equation X.
+\end_layout
+
+\begin_layout Standard
+This relationship between pore diameter and pressure is known as the Washburn
+ equation.
+ According to this relationship, when a known mercury pressure is applied
+ to a container enclosing a porous sample, mercury is only forced into the
+ pores from a certain diameter onward.
+ The total volume of mercury introduced or forced into the pores is equal
+ to the total volume of pores of a specific size.
+\end_layout
+
+\begin_layout Standard
+WEBB (2001) demonstrou a relação entre a tensão superficial dos líquidos
+ e o ângulo de contato.
+ Diferentes líquidos sobre uma mesma superfície exibem diferentes tensões
+ superficiais, o que resulta em variados ângulos de contato com a superfície
+ sólida .
+\end_layout
+
+\begin_layout Standard
+A figura X ilustra cinco líquidos distintos, cada um com um ângulo de contato
+ diferente em relação à superfície sólida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/wettability.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Various liquids resting on a solid surface.
+ The different angles of contact are illustrated for wetting and non-wetting
+ liquids
+\begin_inset Quotes erd
+\end_inset
+
+, WEBB (2001)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that a liquid with low surface tension in contact with a solid surface
+ of higher surface tension will spread out, forming a contact angle of less
+ than 90°, thereby being characterized as wetting.
+ Conversely, if the surface tension of the liquid exceeds that of the solid
+ surface, the liquid will form a droplet with a contact angle between 90°
+ and 180°, classifying it as a non-wetting liquid in relation to the surface.
+\end_layout
+
+\begin_layout Standard
+Tendo em vista que neste trabalho o mercúrio assume um ângulo de contato
+ de 140º, pode-se afirmar que o mercúrio assume característica de líquido
+ não molhante.
+ Como destacado no capítulo anterior, para o sucesso do método, a pressão
+ deve ser aumentada progressivamente em diferentes estágios.
+ Ao aumento da pressão de confinamento, a força externa aplicada supera
+ a pressão capilar exercida contra o líquido não molhante, promovendo assim
+ a intrusão do mercúrio nos poros.
+\end_layout
+
+\begin_layout Standard
+Para explicar o uso do mercúrio como líquido não molhante, algumas característic
+as são evidenciadas:
+\end_layout
+
+\begin_layout Itemize
+Possui baixa reatividade química com a maioria dos materiais em temperatura
+ ambiente;
+\end_layout
+
+\begin_layout Itemize
+Apresenta um ângulo de contato elevado (112º a 142º), o que impede a maioria
+ dos materiais de serem molhados.
+\end_layout
+
+\begin_layout Standard
+Furthermore, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Analitical-Methods-Webb"
+literal "false"
+
+\end_inset
+
+ discusses that at a pressure of 414 MPa (60,000 psi), mercury can be forced
+ into pores as small as 0.003 micrometers.
+ The application of Mercury Intrusion Porosimetry (MIP) aims to estimate
+ the pore size distribution, including pore throat dimensions.
+ This technique allows the measurement of the minimum size of pores (throats)
+ that mercury can enter under specific pressure.
+ This is crucial to understanding how pores behave in a material.
+ Furthermore, mercury porosimetry goes beyond the simple assessment of porosity.
+ It is also used to determine characteristics such as mass, matrix density,
+ and particle distribution in a material.
+ This technique enables the filling of empty spaces and interstitial spaces,
+ corresponding to the spaces between particles in the material matrix.
+\end_layout
+
+\begin_layout Subsection
+Procedimento Experimental
+\end_layout
+
+\begin_layout Standard
+Uma amostra seca, de qualquer formato e previamente pesada, é colocada em
+ uma câmara de modo a ser preenchida com mercúrio em diferentes estágios
+ de pressão.
+ Observando uma escala de volume, é possível deduzir a variação do nível
+ de mercúrio dentro da câmara.
+ Em pressões muito baixas, o mercúrio permanece ao redor da amostra, sem
+ penetrar em seus poros, sinalizando que o aumento do nível de merúrio está
+ relacionado ao volume total da amostra.
+ Em contrapartida, ao se elevar a pressão, o mercúrio que antes apenas rodeava
+ os poros começa a preenchê-los e uma queda de seu nível pode ser observada
+ na escala.
+ O mercúrio penetra em poros cada vez menores a cada etapa, superando a
+ pressão capilar que atua contra o fluido não molhante 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Conforme destacado anteriomente, para ser intrudido nos poros da amostra,
+ o mercúrio necessita de uma força externa para vencer a pressão capilar.
+ Inicialmente, essa força é obtida a partir da pressão que é aplicada através
+ do gás nitrogênio.
+ Quando ocorre o aumento da pressão e não há um tamanho de poro que satisfaça
+ a equação X (wash), não ocorrerá intrusão de mercúrio e o volume intrudido
+ será nulo, como mostra a região A da figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Quando a pressão atinge o valor ideal para preencher um determinado tamanho
+ de poro, a intrusão ocorre e o volume intrudido aumenta, conforme mostrado
+ na região B da figura X.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Intrusion-volume-versus"
+
+\end_inset
+
+Intrusion volume versus Pressure.
+ Adapted from (GOUVEIA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado 2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Volume variation versus Pressure.
+ Adapted from (GOUVEIA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "bibliografia"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Cronograma
+\end_layout
+
+\begin_layout Itemize
+.
+\end_layout
+
+\end_body
+\end_document
