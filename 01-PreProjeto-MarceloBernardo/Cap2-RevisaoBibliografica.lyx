@@ -1782,10 +1782,10 @@ literal "false"
 
  também utilizou a técnica de porosimetria de injeção a mercúrio, entretanto
  para a caracterização petrofísica de estromatólitos da Lagoa Salgada.
- Seu estudo fornece dados relevantes sobre a complexidade do sistema poroso
- que compreende diversos tipos de porosidade, tais como a prorosidade móldica,
- por canais e fenestrais.
- Conforme é possível observar na 
+ A partir de imagens de lâminas petrográficas, seu estudo fornece dados
+ relevantes sobre a complexidade do sistema poroso que compreende diversos
+ tipos de porosidade, tais como a prorosidade móldica, por canais e fenestrais
+ conforme é possível observar na 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pore-analysis-using"
@@ -1795,8 +1795,18 @@ noprefix "false"
 
 \end_inset
 
-, à medida que a pressão aumenta o mercúrio começa a intrudir em poros cada
- vez menores.
+.
+ Na pesquisa de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, os estromatólitos foram subdivididos em três fácies: A, B e C, sendo a
+ fácies A composta por estromatólitos do tipo trombolítico/vugular, a fácies
+ B por trombólitos, e a fácies C por tapetes microbianos.
 \end_layout
 
 \begin_layout Standard
@@ -1825,7 +1835,7 @@ name "fig:Pore-analysis-using"
 
 \end_inset
 
-Pore analysis using MIP technique from 
+Lâmina petrográfica extraída da amostra da fácie A 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ceia2022petrophysical"
