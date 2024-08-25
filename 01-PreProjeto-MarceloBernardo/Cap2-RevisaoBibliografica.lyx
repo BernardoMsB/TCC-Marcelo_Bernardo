@@ -1567,6 +1567,7 @@ noprefix "false"
  and the turbiditic sandstones of the Maresias Member of the Marambaia Formation
  stand out.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1734,6 +1735,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1751,7 +1753,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schematic representation of pores (Giesche et.al, 2006) 
+Schematic representation of pores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Schematic-representation-os"
@@ -1782,20 +1792,6 @@ literal "false"
 
  também utilizou a técnica de porosimetria de injeção a mercúrio, entretanto
  para a caracterização petrofísica de estromatólitos da Lagoa Salgada.
- A partir de imagens de lâminas petrográficas, seu estudo fornece dados
- relevantes sobre a complexidade do sistema poroso que compreende diversos
- tipos de porosidade, tais como a prorosidade móldica, por canais e fenestrais
- conforme é possível observar na 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pore-analysis-using"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
  Na pesquisa de 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1807,10 +1803,146 @@ literal "false"
 , os estromatólitos foram subdivididos em três fácies: A, B e C, sendo a
  fácies A composta por estromatólitos do tipo trombolítico/vugular, a fácies
  B por trombólitos, e a fácies C por tapetes microbianos.
+ 
+\end_layout
+
+\begin_layout Standard
+Por meio da técnica de MIP, foi possível compilar dados de permo-porosidade
+ a partir de resultados extraídos da literatura.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Crossplot-between-porosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ apresenta dados de três poços: um obtido por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+ e dois referentes a estromatólitos do pré-sal da Bacia de Santos, identificados
+ como poços A e B, fornecidos pela Agência Nacional do Petróleo (ANP).
+ Além disso, a figura também inclui dados de estromatólitos provenientes
+ da Lagoa Salgada.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Permoporosity.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Crossplot-between-porosity"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Crossplot between porosity and permeability exhibiting the estimates based
+ on the MIP and results obtained from literature.
+ Data from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+, Pre-salt Wells A and B refer to pre-salt stromatolites of the Santos Basin.
+ All other literature data refer to Lagoa Salgada stromatolites.
+ Dashed ellipses depict three distinct regions exhibiting practically the
+ same porosity but with a great variability in permeability
+\begin_inset Quotes erd
+\end_inset
+
+, extracted from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme indicado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, não foi possível identificar um padrão de comportamento que pudesse ser
+ facilmente modelado.
+ No entanto, os autores observaram uma tendência na permo-porosidade das
+ amostras nas regiões I e II, sugerindo um comportamento semelhante entre
+ as fácies B e C dos estromatólitos da Lagoa Salgada e as rochas do pré-sal.
+ Essa analogia petrofísica reflete uma semelhança no comportamento da permo-poro
+sidade, que pode ser útil para compreender o comportamento deposicional
+ dessas formações.
+\end_layout
+
+\begin_layout Standard
+A partir de imagens de lâminas petrográficas, seu estudo fornece dados relevante
+s sobre a complexidade do sistema poroso que compreende diversos tipos de
+ porosidade, tais como a prorosidade móldica, por canais e fenestrais conforme
+ é possível observar na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pore-analysis-using"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1835,7 +1967,7 @@ name "fig:Pore-analysis-using"
 
 \end_inset
 
-Lâmina petrográfica extraída da amostra da fácie A 
+Lâmina petrográfica extraída de amostras da fácie A 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ceia2022petrophysical"

@@ -163,8 +163,16 @@ Properties of the Pore Space
 \end_layout
 
 \begin_layout Standard
-In his study, Schon (2011) emphasizes the fundamental importance of characterizi
-ng the pore space as a reservoir property, such as porosity and permeability.
+In his study, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schon2011physical"
+literal "false"
+
+\end_inset
+
+ emphasizes the fundamental importance of characterizing the pore space
+ as a reservoir property, such as porosity and permeability.
  These properties are essential for characterizing and describing the behavior
  of fluid flow within the reservoir.
 \end_layout
@@ -470,7 +478,15 @@ Secondary porosity, also known as post-depositional porosity, arises as
  a result of geological processes occurring after the formation of the rock
  from sediments.
  These processes include fracturing, dissolution, dolomitization, and fracturing
- (Flugel, 2004).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flugel2010microfacies"
+literal "false"
+
+\end_inset
+
+.
  Secondary porosity is commonly found in carbonate rocks as it can be generated
  by processes such as dissolution, dolomitization, or fracturing.
 \end_layout
@@ -568,8 +584,15 @@ flow
 \lang american
 path
 \lang brazilian
-, 'La', length of a sample, 'L', and tortuosity, 'La/L'.
- AZAR (2008)
+, 'La', length of a sample, 'L', and tortuosity, 'La/L' 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "azar2008approach"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -648,7 +671,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-FRF=\frac{R_{o}}{R_{w}}=\frac{1}{\Phi_{e}^{m}}\label{eq: Formation Resistivity Factor}
+FRF=\frac{R_{o}}{R_{w}}=\frac{1}{\phi_{e}^{m}}\label{eq: Formation Resistivity Factor}
 \end{equation}
 
 \end_inset
@@ -688,7 +711,7 @@ noprefix "false"
 \end_inset
 
  and 
-\begin_inset Formula $\varphi_{e}$
+\begin_inset Formula $\phi_{e}$
 \end_inset
 
 .
@@ -697,7 +720,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\tau=FRF\times\varphi_{e}\label{eq:Tortuosity}
+\tau=FRF\times\phi_{e}\label{eq:Tortuosity}
 \end{equation}
 
 \end_inset
@@ -745,7 +768,11 @@ The ratio between the surface area
 \begin_inset Formula $m(\pi r^{2}L)$
 \end_inset
 
- represents the specific surface area for capillary tubes, as shown in 
+ represents the specific surface area for capillary tubes 
+\begin_inset Formula $[cm^{-1}]$
+\end_inset
+
+, as shown in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Specific Surface Area"
@@ -774,8 +801,16 @@ where
 \begin_inset Formula $r$
 \end_inset
 
+ 
+\begin_inset Formula $[cm]$
+\end_inset
+
  is the radius of the pore and 
 \begin_inset Formula $L$
+\end_inset
+
+ 
+\begin_inset Formula $[cm]$
 \end_inset
 
  is the length.
@@ -810,7 +845,7 @@ noprefix "false"
 \end_inset
 
 
-\begin_inset Formula $\left[m^{2}\right]$
+\begin_inset Formula $\left[cm^{2}\right]$
 \end_inset
 
  represents the total cross-sectional area.
@@ -819,7 +854,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-S_{vgr}=\frac{m(2πrL)}{A_{c}L(1-φ_{e})}=\frac{2πmr}{A_{c}(1-φ_{e})}=\frac{πmr^{2}}{A_{c}}(\frac{2}{r})\frac{1}{(1-φ_{e})}\label{eq: Specific Grain Volume}
+S_{vgr}=\frac{m(2πrL)}{A_{c}L(1-\phi_{e})}=\frac{2πmr}{A_{c}(1-\phi_{e})}=\frac{πmr^{2}}{A_{c}}(\frac{2}{r})\frac{1}{(1-\phi_{e})}\label{eq: Specific Grain Volume}
 \end{equation}
 
 \end_inset
@@ -859,6 +894,10 @@ noprefix "false"
 \end_inset
 
 , giving rise to the specific surface area per unit volume of the grain
+ 
+\begin_inset Formula $[cm^{-1}]$
+\end_inset
+
  as a function of the specific surface area.
 \end_layout
 
@@ -921,7 +960,7 @@ literal "false"
 .
 \begin_inset Formula 
 \begin{equation}
-q=KA\frac{h_{1}-h_{2}}{L}
+q=KA\frac{h_{1}-h_{2}}{L}\label{eq:Darcy}
 \end{equation}
 
 \end_inset
@@ -930,17 +969,13 @@ q=KA\frac{h_{1}-h_{2}}{L}
 \end_layout
 
 \begin_layout Standard
-Where the constant 
-\begin_inset Formula $K$
-\end_inset
-
- [D]
+Where the constant K [D]
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K=\frac{\gamma k}{\mu}
+K=\frac{\gamma k}{\mu}\label{eq:K_darcy}
 \end{equation}
 
 \end_inset
@@ -966,8 +1001,27 @@ depends on the absolute permeability of the porous medium, the viscosity
 \end_layout
 
 \begin_layout Standard
-By substituting equation 4 into equation 2, we obtain Darcy's law for fluids
- (
+By substituting Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:K_darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ into Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we obtain Darcy's law for fluids (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Darcy's Law"
@@ -1002,8 +1056,8 @@ Permeability Models
 \end_layout
 
 \begin_layout Standard
-Diversos modelos para estimar a permeabilidade estão estão disponíveis na
- literatura, a exemplo dos modelos de 
+Diversos modelos para estimar a permeabilidade estão disponíveis na literatura,
+ a exemplo dos modelos de 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "tiab2024petrophysics,saki2020new,kolodzie1980analysis"
@@ -1131,12 +1185,12 @@ where,
 \begin_inset Formula $r_{35}$
 \end_inset
 
- refers to the radius of the smallest pores or throats filled with mercury
- at 35% saturation in an MIP test [
+ refers to the radius [
 \begin_inset Formula $\mu m$
 \end_inset
 
-].
+] of the smallest pores or throats filled with mercury at 35% saturation
+ in an MIP test.
  Additionally, 
 \begin_inset Formula $ϕ$
 \end_inset
@@ -1223,8 +1277,15 @@ The Barra Velha Formation has its base marked by the Pré-Alagoas unconformity,
  Formation, as observed by Chinelatto et al.
  (2020), while the upper part is defined by the salt base unconformity,
  indicating the abrupt transition to the evaporites of the Ariri Formation,
- as highlighted by Yamamoto et al.
- (2019).
+ as highlighted by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yamamoto2019analysis"
+literal "false"
+
+\end_inset
+
+.
  Due to its evolution associated with the separation between the South American
  and African continents, genetically related deposits to the Barra Velha
  Formation, such as the Macabú Formation in the Campos Basin (Herlinguer
@@ -1312,18 +1373,26 @@ literal "false"
 
 \begin_layout Standard
 However, there are two main and distinct models that have been widely debated
- regarding the depositional conditions of the Barra Velha Formation (
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Fig.
- 
-\end_layout
+ regarding the depositional conditions of the Barra Velha Formation, as
+ one can observe in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Depositional model for Barra Velha Formation"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
-2) (Wright and Barnett, 2017).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+.
  These models and their variations mainly differ in hydrological characteristics
  and the shape of the lacustrine system.
  One of these models describes a deep lake, where extensive microbial platforms
@@ -1356,7 +1425,22 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-asdsds
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Depositional model for Barra Velha Formation"
+
+\end_inset
+
+ Depositional setting models for Barra Velha Fm.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1381,7 +1465,15 @@ In general, the deep lake and carbonate platform model is more aligned with
  In contrast, the conceptual models of shallow and evaporitic lakes seek
  to explain various petrographic characteristics and isotopic and geochemical
  evidence, suggesting significant and frequent variations in water chemistry,
- resulting in conditions of extreme alkalinity (Wright and Barnett, 2016).
+ resulting in conditions of extreme alkalinity 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -1475,6 +1567,7 @@ noprefix "false"
  and the turbiditic sandstones of the Maresias Member of the Marambaia Formation
  stand out.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1642,6 +1735,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1659,7 +1753,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schematic representation of pores (Giesche et.al, 2006) 
+Schematic representation of pores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Schematic-representation-os"
@@ -1690,10 +1792,141 @@ literal "false"
 
  também utilizou a técnica de porosimetria de injeção a mercúrio, entretanto
  para a caracterização petrofísica de estromatólitos da Lagoa Salgada.
- Seu estudo fornece dados relevantes sobre a complexidade do sistema poroso
- que compreende diversos tipos de porosidade, tais como a prorosidade móldica,
- por canais e fenestrais.
- Conforme é possível observar na 
+ Na pesquisa de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, os estromatólitos foram subdivididos em três fácies: A, B e C, sendo a
+ fácies A composta por estromatólitos do tipo trombolítico/vugular, a fácies
+ B por trombólitos, e a fácies C por tapetes microbianos.
+ 
+\end_layout
+
+\begin_layout Standard
+Por meio da técnica de MIP, foi possível compilar dados de permo-porosidade
+ a partir de resultados extraídos da literatura.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Crossplot-between-porosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ apresenta dados de três poços: um obtido por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+ e dois referentes a estromatólitos do pré-sal da Bacia de Santos, identificados
+ como poços A e B, fornecidos pela Agência Nacional do Petróleo (ANP).
+ Além disso, a figura também inclui dados de estromatólitos provenientes
+ da Lagoa Salgada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Permoporosity.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Crossplot-between-porosity"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Crossplot between porosity and permeability exhibiting the estimates based
+ on the MIP and results obtained from literature.
+ Data from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+, Pre-salt Wells A and B refer to pre-salt stromatolites of the Santos Basin.
+ All other literature data refer to Lagoa Salgada stromatolites.
+ Dashed ellipses depict three distinct regions exhibiting practically the
+ same porosity but with a great variability in permeability
+\begin_inset Quotes erd
+\end_inset
+
+, extracted from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme indicado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, não foi possível identificar um padrão de comportamento que pudesse ser
+ facilmente modelado.
+ No entanto, os autores observaram uma tendência na permo-porosidade das
+ amostras nas regiões I e II, sugerindo um comportamento semelhante entre
+ as fácies B e C dos estromatólitos da Lagoa Salgada e as rochas do pré-sal.
+ Essa analogia petrofísica reflete uma semelhança no comportamento da permo-poro
+sidade, que pode ser útil para compreender o comportamento deposicional
+ dessas formações.
+\end_layout
+
+\begin_layout Standard
+A partir de imagens de lâminas petrográficas, seu estudo fornece dados relevante
+s sobre a complexidade do sistema poroso que compreende diversos tipos de
+ porosidade, tais como a prorosidade móldica, por canais e fenestrais conforme
+ é possível observar na 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pore-analysis-using"
@@ -1703,12 +1936,13 @@ noprefix "false"
 
 \end_inset
 
-, à medida que a pressão aumenta o mercúrio começa a intrudir em poros cada
- vez menores.
+.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1733,7 +1967,7 @@ name "fig:Pore-analysis-using"
 
 \end_inset
 
-Pore analysis using MIP technique from 
+Lâmina petrográfica extraída de amostras da fácie A 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ceia2022petrophysical"
