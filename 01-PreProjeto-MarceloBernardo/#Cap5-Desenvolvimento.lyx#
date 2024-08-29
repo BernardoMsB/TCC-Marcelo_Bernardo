@@ -566,8 +566,23 @@ status open
 
 \begin_layout Plain Layout
 
-\series bold
-Depth (m)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Depth (
+\begin_inset Formula $m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -577,8 +592,27 @@ Depth (m)
 
 \begin_layout Plain Layout
 
-\series bold
-ϕ (%)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $ϕ$
+\end_inset
+
+ (
+\begin_inset Formula $%\ensuremath{\%}
+$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -588,8 +622,23 @@ Depth (m)
 
 \begin_layout Plain Layout
 
-\series bold
-r35 (µm)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+r35 (
+\begin_inset Formula $µm$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -599,7 +648,18 @@ r35 (µm)
 
 \begin_layout Plain Layout
 
-\series bold
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 Log r35
 \end_layout
 
@@ -610,8 +670,23 @@ Log r35
 
 \begin_layout Plain Layout
 
-\series bold
-K Saki (mD)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+K_Saki (
+\begin_inset Formula $mD$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -621,8 +696,23 @@ K Saki (mD)
 
 \begin_layout Plain Layout
 
-\series bold
-K Winland (mD)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+K_Winland (
+\begin_inset Formula $mD$
+\end_inset
+
+)
 \end_layout
 
 \end_inset

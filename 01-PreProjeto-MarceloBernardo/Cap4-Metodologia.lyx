@@ -240,7 +240,11 @@ Sample Type
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sample Depth (m)
+Sample Depth (
+\begin_inset Formula $m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -258,7 +262,11 @@ Porosity (%)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Maximum Pressure Reached (psia)
+Maximum Pressure Reached (
+\begin_inset Formula $psia$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -267,7 +275,11 @@ Maximum Pressure Reached (psia)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Minimum Pore-throat radius Reached (mm)
+Minimum Pore-throat radius Reached (
+\begin_inset Formula $mm$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -1230,7 +1242,11 @@ Pore Throat Radius
 \begin_inset Formula $\mu$
 \end_inset
 
-m)
+
+\begin_inset Formula $m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -1250,7 +1266,10 @@ Micropore
 \begin_inset Text
 
 \begin_layout Plain Layout
-r < 0.5
+\begin_inset Formula $r$
+\end_inset
+
+ < 0.5
 \end_layout
 
 \end_inset
@@ -1294,7 +1313,10 @@ Macropore
 \begin_inset Text
 
 \begin_layout Plain Layout
-r > 5
+\begin_inset Formula $r$
+\end_inset
+
+ > 5
 \end_layout
 
 \end_inset

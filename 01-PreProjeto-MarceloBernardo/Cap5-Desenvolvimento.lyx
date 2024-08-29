@@ -578,7 +578,11 @@ status open
 \uwave off
 \noun off
 \color none
-Depth (m)
+Depth (
+\begin_inset Formula $m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -600,7 +604,10 @@ Depth (m)
 \uwave off
 \noun off
 \color none
-ϕ (%)
+\begin_inset Formula $ϕ$
+\end_inset
+
+ (%)
 \end_layout
 
 \end_inset
@@ -622,7 +629,11 @@ Depth (m)
 \uwave off
 \noun off
 \color none
-r35 (µm)
+r35 (
+\begin_inset Formula $µm$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -666,7 +677,11 @@ Log r35
 \uwave off
 \noun off
 \color none
-K_Saki (mD)
+K_Saki (
+\begin_inset Formula $mD$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -688,7 +703,11 @@ K_Saki (mD)
 \uwave off
 \noun off
 \color none
-K_Winland (mD)
+K_Winland (
+\begin_inset Formula $mD$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
