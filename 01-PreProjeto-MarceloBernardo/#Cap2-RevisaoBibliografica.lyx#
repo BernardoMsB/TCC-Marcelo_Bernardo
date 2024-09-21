@@ -373,7 +373,11 @@ literal "false"
 \end_inset
 
 and pore sizes that can vary from hundreds of micrometers to a few nanometers
- within a 1.5” plug.
+ within a 1.5 
+\begin_inset Formula $in$
+\end_inset
+
+ plug.
  Additionally, there is a wide variety of pore types, as illustrated in
  Figure 
 \begin_inset CommandInset ref
@@ -502,8 +506,11 @@ literal "false"
 
 \end_inset
 
-, defining micropores as those with a diameter less than 0.5 µm, mesopores
- between 0.5 and 5 
+, defining micropores as those with a diameter less than 0.5 
+\begin_inset Formula $µm$
+\end_inset
+
+, mesopores between 0.5 and 5 
 \begin_inset Formula $µm$
 \end_inset
 
@@ -625,11 +632,19 @@ literal "false"
 
 \end_inset
 
-stated that the conductivity of a rock saturated with brine is directly
+ stated that the conductivity of a rock saturated with brine is directly
  related to the specific electrical conductivity of the rock when saturated
- with water (𝑅0), which, in turn, is proportional to the specific resistivity
- of the brine (𝑅𝑤).
- The rock conductivity model is shown in 
+ with water (
+\begin_inset Formula $𝑅_{0}$
+\end_inset
+
+), which, in turn, is proportional to the specific resistivity of the brine
+ (
+\begin_inset Formula $𝑅_{w}$
+\end_inset
+
+).
+ The rock conductivity model is shown in Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Conductivity Rock"
@@ -655,7 +670,8 @@ The formation resistivity factor represents the magnitude of resistivity
  relative to the conductive brine due to the presence of a non-conductive
  matrix.
  Thus, the pores act as the sole conductors, and a correlation between the
- formation resistivity factor and porosity can be obtained as shown in 
+ formation resistivity factor and porosity can be obtained as shown in Equation
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Formation Resistivity Factor"
@@ -696,7 +712,7 @@ literal "false"
 \end_inset
 
  propose an approach to estimate tortuosity based on laboratory test results.
- They suggest that tortuosity can be calculated using 
+ They suggest that tortuosity can be calculated using Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Tortuosity"
@@ -738,7 +754,11 @@ literal "false"
 \end_inset
 
  the concentration of brines used to saturate the samples varies between
- 20,000 to 100,000 mg/L of NaCl.
+ 20,000 to 100,000 
+\begin_inset Formula $mg/L$
+\end_inset
+
+ of NaCl.
 \end_layout
 
 \begin_layout Subsection
@@ -761,18 +781,18 @@ literal "false"
 
 \begin_layout Standard
 The ratio between the surface area 
-\begin_inset Formula $m(2\pi rL)$
+\begin_inset Formula $m\,(2\pi rL)$
 \end_inset
 
  and the pore volume 
-\begin_inset Formula $m(\pi r^{2}L)$
+\begin_inset Formula $m\,(\pi r^{2}L)$
 \end_inset
 
  represents the specific surface area for capillary tubes 
 \begin_inset Formula $[cm^{-1}]$
 \end_inset
 
-, as shown in 
+, as shown in Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Specific Surface Area"
@@ -830,7 +850,7 @@ In a bundle of capillary tubes, the total exposed area, represented by
 \begin_inset Formula $A_{c}L(1-\eta_{e})$
 \end_inset
 
-, as indicated in 
+, as indicated in Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Specific Grain Volume"
@@ -863,7 +883,7 @@ S_{vgr}=\frac{m(2πrL)}{A_{c}L(1-\phi_{e})}=\frac{2πmr}{A_{c}(1-\phi_{e})}=\fra
 \end_layout
 
 \begin_layout Standard
-After some algebraic manipulations, applying 
+After some algebraic manipulations, applying Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Specific Surface Area"
@@ -873,7 +893,7 @@ noprefix "false"
 
 \end_inset
 
- to 
+ to Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Specific Grain Volume"
@@ -883,7 +903,7 @@ noprefix "false"
 
 \end_inset
 
-, one can arrive at 
+, one can arrive at Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:  specific surface area per unit volume of the grain"
@@ -904,7 +924,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-Svgr=S_{vp}(\frac{𝜑_{𝑒}}{1−𝜑_{𝑒}})\label{eq:  specific surface area per unit volume of the grain}
+Svgr=S_{vp}(\frac{\phi_{𝑒}}{1−\phi_{𝑒}})\label{eq:  specific surface area per unit volume of the grain}
 \end{equation}
 
 \end_inset
@@ -945,9 +965,19 @@ There are three types of permeability: absolute, effective, and relative.
  while effective permeability involves the flow of a fluid in the presence
  of another immiscible one.
  Relative permeability is the ratio of effective to absolute permeability.
- Equation x, presented, describes fluid flow in porous media, where variables
- such as flow rate, porous media proportionality constant, cross-sectional
- area, water heights, and porous media length are considered.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, presented, describes fluid flow in porous media, where variables such
+ as flow rate, porous media proportionality constant, cross-sectional area,
+ water heights, and porous media length are considered.
  This equation was empirically derived from a water treatment experiment
  using sand filters 
 \begin_inset CommandInset citation
@@ -969,7 +999,15 @@ q=KA\frac{h_{1}-h_{2}}{L}\label{eq:Darcy}
 \end_layout
 
 \begin_layout Standard
-Where the constant K [D]
+Where the constant 
+\begin_inset Formula $K$
+\end_inset
+
+ [
+\begin_inset Formula $D$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -989,7 +1027,11 @@ depends on the absolute permeability of the porous medium, the viscosity
 \begin_inset Formula $\mu$
 \end_inset
 
- [cP], and the specific weight of the fluid 
+ [
+\begin_inset Formula $cP$
+\end_inset
+
+], and the specific weight of the fluid 
 \begin_inset Formula $\gamma$
 \end_inset
 
@@ -1046,9 +1088,24 @@ q=\frac{KA\Delta P}{\mu L}\label{eq: Darcy's Law}
 \end_layout
 
 \begin_layout Standard
-As h1 and h2 have pressure units, they can be replaced by P [atm].
- The fluid viscosity is expressed in centipoise [cP] and permeability in
- Darcy [D].
+As h1 and h2 have pressure units, they can be replaced by 
+\begin_inset Formula $P$
+\end_inset
+
+ [
+\begin_inset Formula $atm$
+\end_inset
+
+].
+ The fluid viscosity is expressed in centipoise [
+\begin_inset Formula $cP$
+\end_inset
+
+] and permeability in Darcy [
+\begin_inset Formula $D$
+\end_inset
+
+].
 \end_layout
 
 \begin_layout Subsection
@@ -1056,8 +1113,8 @@ Permeability Models
 \end_layout
 
 \begin_layout Standard
-Diversos modelos para estimar a permeabilidade estão disponíveis na literatura,
- a exemplo dos modelos de 
+Various models for estimating permeability are available in the literature,
+ such as the models of 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "tiab2024petrophysics,saki2020new,kolodzie1980analysis"
@@ -1066,9 +1123,9 @@ literal "false"
 \end_inset
 
 .
- No presente trabalhado estes três métodos serão desenvolvidos.
- Entretanto, serão utilizados apenas estes dois últimos, uma vez que os
- dados necessários para a estimativa de Kozeny-Carman 
+ In the present study, these three methods will be developed.
+ However, only the latter two will be used, as the necessary data for the
+ Kozeny-Carman estimation 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "tiab2024petrophysics"
@@ -1076,7 +1133,7 @@ literal "false"
 
 \end_inset
 
- não foram obtidos.
+ were not obtained..
 \end_layout
 
 \begin_layout Subsubsection
@@ -1084,11 +1141,11 @@ Kozeny-Carman Model
 \end_layout
 
 \begin_layout Standard
-Este modelo relaciona a permeabilidade de um meio poroso à sua estrutura
- e propriedades fluidas.
- A equação de Kozeny-Carman é derivada com base em uma idealização do fluxo
- de fluido através de um meio poroso, considerando-o como um conjunto de
- canais capilares tortuosos e uniformemente distribuídos 
+This model relates the permeability of a porous medium to its structure
+ and fluid properties.
+ The Kozeny-Carman equation is derived based on an idealization of fluid
+ flow through a porous medium, considering it as a set of tortuous and uniformly
+ distributed capillary channels 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "tiab2024petrophysics"
@@ -1122,7 +1179,11 @@ k=\frac{\phi d_{p}^{2}}{16τ}\label{eq:Kozeny Carman}
 \end_layout
 
 \begin_layout Standard
-where k is the absolute permeability [mD], 
+where k is the absolute permeability [
+\begin_inset Formula $mD$
+\end_inset
+
+], 
 \begin_inset Formula $\phi$
 \end_inset
 
@@ -1134,7 +1195,11 @@ where k is the absolute permeability [mD],
 \begin_inset Formula $\frac{\mu m}{\mu m}$
 \end_inset
 
-], and dp is the pores average (mean volume) diameter [
+], and 
+\begin_inset Formula $dp$
+\end_inset
+
+ is the pores average (mean volume) diameter [
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -1146,7 +1211,7 @@ Winland Model
 \end_layout
 
 \begin_layout Standard
-Conforme reportado por 
+As reported by 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "kolodzie1980analysis"
@@ -1154,9 +1219,9 @@ literal "false"
 
 \end_inset
 
-, Winland desenvolveu um método para calcular o tamanho médio de garganta
- de poros em suas abordagens nos campos de Weyburn, Hidalgo e Spindle.
- O modelo desenvolvido por Winland pode ser observado pela Equação 
+, Winland developed a method to calculate the average pore throat size in
+ his approaches in the Weyburn, Hidalgo, and Spindle fields.
+ The model developed by Winland can be seen in Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Winland Equation"
@@ -1166,13 +1231,13 @@ noprefix "false"
 
 \end_inset
 
-:
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,φ\label{eq: Winland Equation}
+log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,\phi\label{eq: Winland Equation}
 \end{equation}
 
 \end_inset
@@ -1199,7 +1264,11 @@ where,
 \begin_inset Formula $K_{air}$
 \end_inset
 
- denotes air permeability [mD].
+ denotes air permeability [
+\begin_inset Formula $mD$
+\end_inset
+
+].
  The ranges of permeability and porosity used in the dataset for Winland's
  equation were not specified.
 \end_layout
@@ -1216,14 +1285,15 @@ literal "false"
 
 \end_inset
 
- utiliza um modelo similar ao abordado por Winland, entretanto contendo
- uma base de dados mais robusta.
- Não obstante, em seu estudo, é possível identificar a relação de 
+ uses a model similar to the one addressed by Winland, but with a more robust
+ dataset.
+ Nonetheless, in his study, it is possible to identify the relationship
+ of 
 \begin_inset Formula $r_{35}$
 \end_inset
 
-à permeabilidade e porosidade.
- O modelo de Saki pode ser observado através da Equação 
+ to permeability and porosity.
+ The Saki model can be observed by using the Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Saki Equation"
@@ -1233,13 +1303,13 @@ noprefix "false"
 
 \end_inset
 
-:
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,φ\label{eq:Saki Equation}
+log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,\phi\label{eq:Saki Equation}
 \end{equation}
 
 \end_inset
@@ -1274,10 +1344,17 @@ ties, as do the associated minerals found in this formation, indicating
 \begin_layout Standard
 The Barra Velha Formation has its base marked by the Pré-Alagoas unconformity,
  which separates it from the bioclastic deposits and shales of the Itapema
- Formation, as observed by Chinelatto et al.
- (2020), while the upper part is defined by the salt base unconformity,
- indicating the abrupt transition to the evaporites of the Ariri Formation,
- as highlighted by 
+ Formation, as observed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chinelatto2020taphofacies"
+literal "false"
+
+\end_inset
+
+, while the upper part is defined by the salt base unconformity, indicating
+ the abrupt transition to the evaporites of the Ariri Formation, as highlighted
+ by 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "yamamoto2019analysis"
@@ -1288,56 +1365,23 @@ literal "false"
 .
  Due to its evolution associated with the separation between the South American
  and African continents, genetically related deposits to the Barra Velha
- Formation, such as the Macabú Formation in the Campos Basin (Herlinguer
- et al., 2017), and the sag phase deposits of the West African basins (Kwanza
- Basin, Saller et al., 2016), can be integrated to understand the predominant
- depositional system during the Aptian and the sedimentary and diagenetic
- processes that affected the Pre-Salt reservoirs.
+ Formation, such as the Macabu Formation in the Campos Basin, and the sag
+ phase deposits of the West African basins Saller et al., 2016), can be integrate
+d to understand the predominant depositional system during the Aptian and
+ the sedimentary and diagenetic processes that affected the Pre-Salt reservoirs.
 \end_layout
 
 \begin_layout Standard
 Numerous studies over the last decade have proposed a lacustrine interpretation
- for the carbonates of the Brazilian Pre-Salt sag stage (
+ for the carbonates of the Brazilian Pre-Salt sag stage 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "wright2015abiotic"
+key "wright2015abiotic,wright2017critically,wright2018reinterpreting,pietzsch2020environmental"
 literal "false"
 
 \end_inset
 
-, 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "wright2017critically"
-literal "false"
-
-\end_inset
-
-; 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "wright2018reinterpreting"
-literal "false"
-
-\end_inset
-
-; 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "wright2018reinterpreting"
-literal "false"
-
-\end_inset
-
-; 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "pietzsch2020environmental"
-literal "false"
-
-\end_inset
-
-; replacing the initial interpretation of a marine or transitional origin
+ replacing the initial interpretation of a marine or transitional origin
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1372,9 +1416,17 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-However, there are two main and distinct models that have been widely debated
- regarding the depositional conditions of the Barra Velha Formation, as
- one can observe in Figure 
+However, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+ emphasizes that there are two main and distinct models that have been widely
+ debated regarding the depositional conditions of the Barra Velha Formation,
+ as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Depositional model for Barra Velha Formation"
@@ -1384,23 +1436,11 @@ noprefix "false"
 
 \end_inset
 
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "wright2017critically"
-literal "false"
-
-\end_inset
-
 .
- These models and their variations mainly differ in hydrological characteristics
- and the shape of the lacustrine system.
+ These models and their variations primarily differ in terms of hydrological
+ characteristics and the shape of the lacustrine system.
  One of these models describes a deep lake, where extensive microbial platforms
- and large-scale structures developed (Saller et al., 2016; Ceraldi and Green,
- 2016; Minzoni et al., 2020; Gomes et al., 2020).
- On the other hand, the second model suggests the presence of a shallow
- evaporitic lake, with a gentle slope (Wright and Barnett, 2016; Farias
- et al., 2019; Gomes et al., 2020).
+ and large-scale structures developed..
 \end_layout
 
 \begin_layout Standard
@@ -1461,7 +1501,7 @@ literal "false"
 In general, the deep lake and carbonate platform model is more aligned with
  the evidence observed at seismic scale, including clinoforms of hundreds
  of meters and seismic geomorphology indicating an extremely steep lake
- bottom topography (Saller et al., 2016; Minzoni et al., 2020).
+ bottom topography.
  In contrast, the conceptual models of shallow and evaporitic lakes seek
  to explain various petrographic characteristics and isotopic and geochemical
  evidence, suggesting significant and frequent variations in water chemistry,
@@ -1898,10 +1938,6 @@ literal "false"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1930,7 +1966,7 @@ sidade, que pode ser útil para compreender o comportamento deposicional
 A partir de imagens de lâminas petrográficas, seu estudo fornece dados relevante
 s sobre a complexidade do sistema poroso que compreende diversos tipos de
  porosidade, tais como a prorosidade móldica, por canais e fenestrais conforme
- é possível observar na 
+ é possível observar na Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pore-analysis-using"
@@ -1946,7 +1982,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open

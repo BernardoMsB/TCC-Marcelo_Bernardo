@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass ../../../../../../Dropbox/05-Gestao/Modelos/1-ModelosDiretorios/ModeloDiretorio-Aluno-Bolsista-TCC-IC-MSC-DSC-Projeto-GIT/04-Projeto-Mestrado-Doutorado-BancaEditalSelecao/abnt
+\textclass abnt
 \begin_preamble
 \usepackage {graphicx}
 \usepackage {longtable}
@@ -169,113 +169,88 @@ name "sec:Conclusoes"
 \end_layout
 
 \begin_layout Standard
-[Repita aqui o primeiro parágrafo da introdução, mudando o enfoque de pretende-s
-e fazer para foi feito]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o objetivo é relembrar o leitor o escopo do problema
-\end_layout
-
-\end_inset
-
-
+Diante da significativa descoberta de petróleo no pré-sal da Bacia de Santos,
+ especificamente na Formação Barra Velha, este estudo se propôs a realizar
+ uma análise detalhada da distribuição de tamanhos de poros desta formação.
+ A complexidade do sistema poroso e a variabilidade das propriedades petrofísica
+s tornam essencial a compreensão detalhada dessas características para a
+ exploração eficiente de hidrocarbonetos.
+ Foi utilizada a técnica de Porosimetria por Intrusão de Mercúrio (MIP)
+ para caracterizar a porosidade e permeabilidade das rochas, fornecendo
+ uma base sólida para futuras estratégias de exploração.
 \end_layout
 
 \begin_layout Standard
-[repita aqui os objetivos do trabalho]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o objetivo é relembrar o leitor dos objetivos
-\end_layout
-
-\end_inset
-
-
+Os objetivos principais deste trabalho foram caracterizar a distribuição
+ de tamanhos de poros na Formação Barra Velha e avaliar a permeabilidade
+ das amostras utilizando modelos de estimativa baseados na saturação de
+ mercúrio.
+ O estudo visou entender como as características dos poros influenciam a
+ permeabilidade das rochas e identificar os tamanhos críticos de garganta
+ de poro que afetam a capacidade de armazenamento e fluxo de fluidos.
 \end_layout
 
 \begin_layout Standard
-[resuma a metodologia utilizada]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o objetivo é relembrar o leitor o método científico utilizado
-\end_layout
-
-\end_inset
-
-
+A metodologia adotada envolveu a utilização da técnica de MIP para analisar
+ amostras da Formação Barra Velha, coletadas de diferentes profundidades.
+ A Equação de Washburn foi utilizada para calcular o diâmetro de garganta
+ de poro a partir dos dados de intrusão de mercúrio, permitindo a classificação
+ dos poros em micro, meso e macroporos.
+ Para a estimativa da permeabilidade, foram empregados os modelos de Saki
+ (2020) e Winland (1980), que relacionam o raio de garganta de poro a 35%
+ de saturação de mercúrio com a permeabilidade.
 \end_layout
 
 \begin_layout Standard
-[descreva resumidamente os modelos desenvolvidos]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o objetivo é relembrar o leitor os modelos desenvolvidos 
-\end_layout
-
-\end_inset
-
-
+Os modelos utilizados neste estudo foram baseados nas equações de permeabilidade
+ de Saki e Winland.
+ O modelo de Saki utiliza uma base de dados robusta para relacionar o raio
+ de garganta de poro a 35% de saturação de mercúrio com a permeabilidade
+ e a porosidade das rochas.
+ O modelo de Winland, por sua vez, calcula o tamanho médio de garganta de
+ poros em suas abordagens, focando na relação entre porosidade e permeabilidade
+ para diferentes campos petrolíferos.
 \end_layout
 
 \begin_layout Standard
-[descreve resumidamente os principais resultados obtidos]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o objetivo é relembrar os principais resultados e análises
-\end_layout
-
-\end_inset
-
-
+Os resultados mostraram que as amostras da Formação Barra Velha apresentam
+ uma predominância de microporos em todas as profundidades analisadas, com
+ valores superiores a 40%.
+ Isso sugere uma alta capacidade de armazenamento, porém, com uma permeabilidade
+ potencialmente limitada devido à menor conectividade desses poros.
+ As análises de saturação de mercúrio indicaram variações significativas
+ entre as profundidades, refletindo a heterogeneidade da formação.
+ As estimativas de permeabilidade baseadas nos modelos de Saki e Winland
+ apresentaram discrepâncias, evidenciando a complexidade da petrofísica
+ da formação e a necessidade de múltiplas abordagens para uma caracterização
+ mais precisa.
 \end_layout
 
 \begin_layout Standard
-[Agora, descreve em detalhes as conclusões do trabalho.....].
- 
+Este estudo fornece uma contribuição significativa para o entendimento das
+ propriedades petrofísicas da Formação Barra Velha, destacando a importância
+ de uma análise detalhada da distribuição de poros e sua relação com a permeabil
+idade.
+ Os resultados obtidos corroboram a complexidade dos sistemas porosos carbonátic
+os, onde a variabilidade na distribuição de tamanhos de poros pode influenciar
+ diretamente as propriedades de armazenamento e fluxo.
+ As discrepâncias observadas entre os modelos de permeabilidade sugerem
+ que não há um único método que possa capturar todas as nuances das característi
+cas da rocha, enfatizando a necessidade de utilizar múltiplas técnicas e
+ abordagens para uma avaliação mais completa.
 \end_layout
 
-\begin_layout Itemize
-É uma síntese conclusiva de tudo o que foi feito.
- Deve esclarecer os pontos principais do trabalho, os resultados a que se
- chegou.
- 
-\end_layout
-
-\begin_layout Itemize
-Deve relembrar o escopo do trabalho, o método, os dados e equipamentos utilizado
-s.
- 
-\end_layout
-
-\begin_layout Itemize
-Deve responder as perguntas da introdução.
- Falar dos modelos/algoritmos desenvolvidos, dos problemas resolvidos e
- resultados obtidos.
- 
-\end_layout
-
-\begin_layout Itemize
-Deve corroborar os resultados com dados estatísticos, com comparações com
- outros trabalhos.
-\end_layout
-
-\begin_layout Itemize
-Deve concluir se as hipóteses foram "rejeitadas" ou "não foram rejeitadas".
- Nunca dizemos que as hipóteses foram aceitas.
-\end_layout
-
-\begin_layout Itemize
-Deve finalizar e arrematar o trabalho de forma segura.
+\begin_layout Standard
+As hipóteses iniciais de que a saturação de 35% de mercúrio forneceria uma
+ melhor precisão nas estimativas de permeabilidade foram confirmadas, conforme
+ indicado pelos modelos de Saki e Winland.
+ No entanto, as variações nos resultados sugerem que a interpretação dos
+ dados deve ser feita com cautela, considerando as especificidades de cada
+ modelo e a natureza heterogênea da formação.
+ Este trabalho conclui que, embora as hipóteses não tenham sido rejeitadas,
+ há uma necessidade contínua de aprimoramento dos modelos existentes e de
+ desenvolvimento de novas metodologias para melhor caracterizar os reservatórios
+ carbonáticos do pré-sal.
 \end_layout
 
 \begin_layout Standard
@@ -306,47 +281,15 @@ name "sec:Sugestoes-Para-Trabalhos-Futuros"
 
 \end_layout
 
-\begin_layout Itemize
-Coloque cada sugestão como uma itemização.
-\end_layout
-
-\begin_layout Itemize
-Fale dos erros cometidos e o que fazer para corrigí-los.
- 
-\end_layout
-
-\begin_layout Itemize
-Fale o que faltou fazer, inovações para o futuro.
-\end_layout
-
-\begin_layout Itemize
-Faça sugestões para trabalhos futuros incluindo não apenas o escopo do seu
- trabalho, mas sugestões mais abrangentes para trabalhos futuros.
- Por exemplo, em quais outras áreas da pesquisa científica ou tecnológica
- seu trabalho ou parte dele pode ser aproveitado.
- Em quais áreas os modelos, métodos e técnicas desenvolvidas podem ser utilizado
-s.
-\end_layout
-
-\begin_layout Itemize
-coloque aqui diversas dicas para trabalhos futuros
-\end_layout
-
-\begin_layout Itemize
-coloque primeiro, exemplos de trabalhos que dão continuidade ao trabalho
- desenvolvido, e que são fáceis de fazer (muito provavelmente você mesmo
- fará este trabalho)
-\end_layout
-
-\begin_layout Itemize
-exemplos de novos trabalhos, que ampliam o trabalho desenvolvido e que podem
- ser feitos em até 1 ano (provavelmente você mesmo fará este trabalho).
-\end_layout
-
-\begin_layout Itemize
-outros exemplos de trabalhos que podem ser desenvolvidos, mas que tem um
- enfoque diferente, ou que irão demorar muito (provavelmente você fará isto
- num doutorado, ou outra pessoa poderá fazê-lo).
+\begin_layout Standard
+Finalmente, o trabalho destaca a importância de futuras pesquisas que integrem
+ técnicas complementares, como a tomografia computadorizada de raios X,
+ para aprofundar a compreensão da distribuição e conectividade dos poros
+ e suas implicações na exploração de petróleo.
+ A aplicação de técnicas avançadas e o desenvolvimento de novos modelos
+ contribuirão para uma melhor caracterização dos reservatórios, promovendo
+ uma exploração mais eficiente e sustentável dos recursos petrolíferos da
+ Bacia de Santos.
 \end_layout
 
 \end_body

@@ -170,18 +170,85 @@ Sample Definition
 \end_layout
 
 \begin_layout Standard
-In this study, the samples analyzed originate from well 1BRSA491-SPS.
- The fragments were collected from the LAPA field in the Santos Basin and
- were provided by Agência Nacional do Petróleo (ANP), to whom we are grateful.
- These samples represents a specific section of the Barra Velha formation.
- To characterize the sample, data were collected from 12 depths within the
- specified section.
- The data is presented covering two different techniques: MIP and Membrane.
+In this study, the samples analyzed originate from well 1-BRSA-491-SPS.
+ The analyzed well is located in the Lapa field, originating from the former
+ BM-S-09 exploratory block, discovered in 2007 by the well under study.
  
 \end_layout
 
 \begin_layout Standard
-However, only the six depths related to the mercury intrusion microscopy
+The field is situated in the central portion of the Santos Basin, approximately
+ 300 km off the coast of the state of São Paulo, with a water depth of around
+ 2,150 meters.
+ The total area of the Lapa field is approximately 229 
+\begin_inset Formula $km^{2}$
+\end_inset
+
+.
+ The exact location of the well and the field boundaries can be seen on
+ the map presented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Location-map-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Bathimetry and Map.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Location-map-of"
+
+\end_inset
+
+Location map of the Lapa field
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The fragments collected were provided by Brazilian Petroleum Agency (ANP).
+ To characterize the sample, data were collected from 12 depths within the
+ specified section.
+ The data is presented covering two different techniques: MIP and Membrane.
+ However, only the six depths related to the mercury intrusion microscopy
  technique will be considered.
  The selected depths provide detailed profiles of the rock formation properties.
  The Table 
@@ -222,6 +289,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Well Name (ANP)
 \end_layout
 
@@ -231,6 +300,8 @@ Well Name (ANP)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Sample Type
 \end_layout
 
@@ -240,6 +311,8 @@ Sample Type
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Sample Depth (
 \begin_inset Formula $m$
 \end_inset
@@ -253,12 +326,9 @@ Sample Depth (
 \begin_inset Text
 
 \begin_layout Plain Layout
-Porosity (
-\begin_inset Formula $%\ensuremath{\%}
-$
-\end_inset
 
-)
+\size small
+Porosity (%)
 \end_layout
 
 \end_inset
@@ -267,6 +337,8 @@ $
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Maximum Pressure Reached (
 \begin_inset Formula $psia$
 \end_inset
@@ -280,6 +352,8 @@ Maximum Pressure Reached (
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Minimum Pore-throat radius Reached (
 \begin_inset Formula $mm$
 \end_inset
@@ -295,6 +369,8 @@ Minimum Pore-throat radius Reached (
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -304,6 +380,8 @@ Minimum Pore-throat radius Reached (
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -313,6 +391,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5236.4
 \end_layout
 
@@ -322,6 +402,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 14
 \end_layout
 
@@ -331,6 +413,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 59984.7
 \end_layout
 
@@ -340,6 +424,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001778 
 \end_layout
 
@@ -351,6 +437,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -360,6 +448,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -369,6 +459,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5240.5
 \end_layout
 
@@ -378,6 +470,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8
 \end_layout
 
@@ -387,6 +481,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 59987.7
 \end_layout
 
@@ -396,6 +492,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001778 
 \end_layout
 
@@ -407,6 +505,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -416,6 +516,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -425,6 +527,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5243
 \end_layout
 
@@ -434,6 +538,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 12.5
 \end_layout
 
@@ -443,6 +549,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 56584.7
 \end_layout
 
@@ -452,6 +560,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001885 
 \end_layout
 
@@ -463,6 +573,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -472,6 +584,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -481,6 +595,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5249
 \end_layout
 
@@ -490,6 +606,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 11.9
 \end_layout
 
@@ -499,6 +617,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 59986.7
 \end_layout
 
@@ -508,6 +628,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001778 
 \end_layout
 
@@ -519,6 +641,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -528,6 +652,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -537,6 +663,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5249.2
 \end_layout
 
@@ -546,6 +674,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 7.8
 \end_layout
 
@@ -555,6 +685,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 59985.7
 \end_layout
 
@@ -564,6 +696,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001778 
 \end_layout
 
@@ -575,6 +709,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1-BRSA-491-SPS
 \end_layout
 
@@ -584,6 +720,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Fragment
 \end_layout
 
@@ -593,6 +731,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 5250
 \end_layout
 
@@ -602,6 +742,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8.9
 \end_layout
 
@@ -611,6 +753,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 59985.7
 \end_layout
 
@@ -620,6 +764,8 @@ Fragment
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.001778 
 \end_layout
 
